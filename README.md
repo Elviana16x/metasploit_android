@@ -3,9 +3,13 @@
 ```bash
 $ apt update
 
-$ pkg upgrade
+$ apt upgrade
 
-$ pkg install wget
+$ pkg install wget curl openssh git -y
+
+$ pkg install python2
+
+$ apt install ncurses-utils
 
 $ wget https://raw.githubusercontent.com/Elviana16x/metasploit_android/master/metasploit.sh
 
