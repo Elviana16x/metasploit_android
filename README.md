@@ -7,7 +7,7 @@ $ pkg upgrade
 
 $ pkg install wget
 
-$ wget https://raw.githubusercontent.com/gushmazuko/metasploit_in_termux/master/metasploit.sh
+$ wget https://raw.githubusercontent.com/Elviana16x/metasploit_android/master/metasploit.sh
 
 $ chmod +x metasploit.sh
 
